@@ -17,8 +17,8 @@ app.use(express.static('public'));
 
 routes(app);
 
-app.listen(5000, function(){
-	console.log("Server start listening to 5000");
+app.listen(8080, function(){
+	console.log("Server start listening to 8080");
 });	
 
 module.exports = app;
