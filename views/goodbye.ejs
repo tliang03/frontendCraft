@@ -1,0 +1,18 @@
+	<%- include('./header.ejs') %>
+    <div class="hidden error"></div>
+    <div class="content">
+    	<div class="header">
+    		<div class="back">
+		    	<button id="back">Back</button>
+		    </div>
+    	</div>
+    	<div class="f1 title">The text you put in previous page is: </div>
+    	<div class="f2 result" id="result"><%=inputText%></div>
+    	<div class="f1 title">Please click back button to go back and modify</div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            goodbyeController && goodbyeController.init();
+        });
+    </script>
+</body>

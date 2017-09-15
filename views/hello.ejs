@@ -1,0 +1,21 @@
+<%- include('./header.ejs') %>
+	<div>
+	    <div class="content">
+	    	<div class="header"></div>
+	    	<div class="f1 title">This is a test node.js application.</div>
+	    	<div class="f2 input">
+	    		<div>Please change the input</div>
+	    		<input id="input" value="<%=inputText %>" />
+    		</div>
+    		<div class="f2 submit">
+    			<div>Please press below submit button. This will help you redirect to second page.</div>
+		    	<button id="submit">Submit</button>
+		    </div>
+	    </div>
+    </div>
+     <script>
+        $(document).ready(function(){
+            helloController && helloController.init();
+        });
+    </script>
+</body>

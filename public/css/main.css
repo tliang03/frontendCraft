@@ -1,0 +1,27 @@
+.hidden{
+	display: none;
+}
+.f1 {
+	font-size: 40px;
+}
+
+.f2 {
+	font-size: 30px;
+}
+.content {
+	text-align: center;
+}
+.content input {
+	padding:10px;
+}
+.content .result {
+	color: red;
+	padding-top: 20px;
+}
+.header{
+	background: lightgray;
+	text-align:left;
+}
+.header .back{
+	padding:10px;
+}
