@@ -18,13 +18,13 @@ var _getGoodbyeModel = function(req){
 
 
 module.exports = function(app){
-	app.get('/one', function(req, res){
+	app.get('/hello', function(req, res){
 		res.render('hello.ejs', _getHelloModel(req), function(err, html){
 			return res.send(html);
 		});
 	});
 
-	app.get('/second', function(req, res){
+	app.get('/goodbye', function(req, res){
 		res.render('goodbye.ejs', _getGoodbyeModel(req), function(err, html){
 			return res.send(html);
 		});

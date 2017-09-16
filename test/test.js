@@ -6,18 +6,18 @@ var should = chai.should();
 chai.use(chaiHttp);
 
 describe('views', function() {
-  it('should list ALL search on /one GET', function(done) {
+  it('should list ALL search on /hello GET', function(done) {
   	chai.request(server)
-	    .get('/one')
+	    .get('/hello')
 	    .end(function(err, res){
 	      res.should.have.status(200);
 	      done();
     });
   });
 
-  it('should list ALL search on /second GET', function(done) {
+  it('should list ALL search on /goodbye GET', function(done) {
   	chai.request(server)
-	    .get('/second')
+	    .get('/goodbye')
 	    .end(function(err, res){
 	      res.should.have.status(200);
 	      done();
