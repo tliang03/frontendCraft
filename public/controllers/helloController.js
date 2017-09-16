@@ -2,7 +2,7 @@ var _subscribeEvent = function(){
 	$('#submit').click(function(){
 		var input = $('#input').val();
 		setCookie('inputText', input);
-		window.location.href = '/second';
+		window.location.href = '/goodbye';
 	});
 };
 
