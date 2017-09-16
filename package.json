@@ -4,7 +4,7 @@
   "description": "node js frontend craft",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node app.js"
   },
   "repository": {
@@ -28,5 +28,9 @@
     "url": "https://github.com/tliang03/frontendCraft/issues"
   },
   "homepage": "https://github.com/tliang03/frontendCraft#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.3"
+  }
 }
